@@ -68,7 +68,26 @@ public class Signup extends JFrame {
 			}
 		});
 	}
-
+	
+	
+	
+//	public boolean isEmpty() {
+//		if(textUsername.getText(). isEmpty()) {
+//			JOptionPane.showMessageDialog(this, "username is missing");
+//			return false;
+//		}
+//		
+//		if(textEmail.getText(). isEmpty()) {
+//			JOptionPane.showMessageDialog(this, "You need to put ur mail");
+//			return false;
+//		}
+//		if(textPassword.getText(). isEmpty()) {
+//			JOptionPane.showMessageDialog(this, "put ur password");
+//			return false;
+//		}
+//		return rootPaneCheckingEnabled;
+//	}
+	
 
 	
 	
@@ -130,7 +149,7 @@ public class Signup extends JFrame {
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(100, 100, 679, 676);
 		contentPane = new JPanel();
-		contentPane.setBackground(new Color(211, 211, 211));
+		contentPane.setBackground(new Color(51, 255, 102));
 		contentPane.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {

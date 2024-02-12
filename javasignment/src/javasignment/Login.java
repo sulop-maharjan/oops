@@ -184,7 +184,7 @@ public class Login extends JFrame {
 		
 		JLabel lblNewLabel_4 = new JLabel("Password:");
 		lblNewLabel_4.setFont(new Font("Tahoma", Font.BOLD, 15));
-		lblNewLabel_4.setBounds(426, 359, 83, 25);
+		lblNewLabel_4.setBounds(428, 359, 83, 25);
 		contentPane.add(lblNewLabel_4);
 		
 		textPw = new JTextField();
@@ -244,7 +244,7 @@ public class Login extends JFrame {
 		JLabel lblNewLabel_3 = new JLabel("New label");
 		lblNewLabel_3.setBackground(new Color(127, 255, 212));
 		lblNewLabel_3.setIcon(new ImageIcon(Login.class.getResource("/javasignment/bwink_bld_03_single_03 (1).png")));
-		lblNewLabel_3.setBounds(0, 10, 350, 648);
+		lblNewLabel_3.setBounds(0, 0, 350, 648);
 		contentPane.add(lblNewLabel_3);
 		
 		JLabel lblNewLabel_5 = new JLabel("WELCOME TO LOGIN PAGE :)");
